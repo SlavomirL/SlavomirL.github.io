@@ -1,0 +1,96 @@
+body {
+  margin: 0 0 0 0;
+  font-family: 'Indie Flower', cursive;
+  background-color: #102236;
+}
+
+#headerBar  {
+  background-color: #e8b923;
+  height: 200px;
+}
+
+#headerBar div {
+  vertical-align: middle;
+  display: inline-block;
+}
+
+#headerBarPicture img {
+  width: 80px;
+  height: 80px;
+}
+
+#headerBarTitle h1 {
+  font-size: 60px;
+  margin: 0 0 0 20px;
+  color: white;
+  text-align: left;
+}
+#thumbnailsBar {
+
+  margin: 20px 0 0 0;
+  border-radius: 16px;
+}
+
+#thumbnailsBar .thumbnail {
+    
+  padding: 20px 0 0 0;
+  background: white;
+  margin: 40px;
+  display: inline-block;
+  position: relative;
+  border-radius: 16px;
+}
+
+.thumbnail h3 {
+  color: #e8b923;
+  text-decoration: none;
+  margin: 0 0 25px 0;
+}
+
+.thumbnail p {
+  color: #e8b923;
+  text-decoration: none;
+  font-size: 10px;
+}
+
+.thumbnail a {
+  text-decoration: none;
+}
+
+
+
+#contactBar {
+  padding: 50px 0;
+  width: 100%;
+  height: 300px;
+  color: white;
+  border-width: 3px 0px 0px 0px;
+  border-color: black;
+  border-style: solid;
+  background-color: #e8b923;
+}
+
+#contactBar .box,
+#contactBar .socialMediaIcons {
+  margin: 0 0 0 13%;
+}
+
+
+.contactBarQA {
+  font-size: 20px;
+    width: 50%;
+    float: left;
+}
+
+#backToMain a {
+  color: white;
+  text-decoration: none;
+}
+
+
+#backToMain {
+  background-color: #102236;
+  margin: 40px 0;
+  width: 100%;
+  text-align: center;
+}

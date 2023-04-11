@@ -1,0 +1,41 @@
+body {
+  margin: 0 0 0 0;
+  color: white;
+  text-decoration: none;
+  font-family: 'Indie Flower', cursive;
+  background-color: #102236;
+}
+
+#container {
+  background-color: #e8b923;
+    width: 50%;
+  margin: 10px 25% 0 25%;
+  padding: 0px 10px 50px 10px;
+  border-radius: 16px;
+}
+
+#container #title {
+  text-align: center;
+  
+}
+
+#container img{
+  width: 50%;
+  margin: 0 25%;
+
+}
+
+
+#footerBar a {
+  display: block;
+  margin: 10px 0;
+  color: white;
+  text-decoration: none;
+}
+
+
+#footerBar {
+  background-color: #102236;
+  margin: 40px 0;
+  text-align: center;
+}

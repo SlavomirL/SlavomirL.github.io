@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="keywords" content = "food, pizza, burger, taste, meat" />
+    <meta name="description" content = "All you need to know about preparing delicious street food"/>
+    <title>TheStreetFoodJournal</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- 
+      Here you can import your fonts
+      You can find all sort of fonts here: https://fonts.google.com/ 
+      Find the one that you like and copy hte <link> part from Selected family
+    -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sono&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  
+  
+  <body>
+    <div id="navigationBar">
+        <div>
+          <h1 class="title">The Street Food Journal</h1>
+        </div>
+        <div class="redirectionBox">
+          <a href="recipes.html" target = "_blank"><h1 class="navigationBarHeader">Recipes</h1></a>
+        </div>
+        <div>
+          <img src="https://cdn.glitch.global/cc2a88e2-30b5-4e73-886c-4fef7baedc85/thumbnails%2Flogo.png?1680384960579" />
+        </div>
+        <div class="redirectionBox">
+          <a href = "#contactBar"><h1 class="navigationBarHeader">Contacts</h1></a>
+        </div>
+    </div>
+       
+    <div id="picturesBar">
+      <div class="picture">
+        <img src="https://cdn.glitch.global/cc2a88e2-30b5-4e73-886c-4fef7baedc85/thumbnails%2Fpizza.png?1680388374564"/>
+      </div>
+      <div class="picture">
+        <img src="https://cdn.glitch.global/cc2a88e2-30b5-4e73-886c-4fef7baedc85/thumbnails%2Fburger.png?1680388382118"/>
+      </div>
+      <div class="picture">
+        <img src="https://cdn.glitch.global/cc2a88e2-30b5-4e73-886c-4fef7baedc85/thumbnails%2Fbao.png?1680388385467"/>
+      </div>
+      <div class="picture">
+        <img src="https://cdn.glitch.global/cc2a88e2-30b5-4e73-886c-4fef7baedc85/thumbnails%2Ftacos.png?1680388378764"/>
+      </div>
+    </div>
+    
+    <div class="main">
+      <h2>About me</h2>
+
+      <p>Hi ladies and gents. I am glad that you decided to discover how to prepare the best street food</p>
+      
+      <img src="PICTURE NEEDS TO BE ADDED"/>
+
+          <!--  Add more elements and style them in the CSS file -->
+    </div>
+    
+    <div id="contactBar">
+      <div class="box">
+        <p>
+          68 Oxford Road, RG23DA Reading, UK
+        </p>
+        <p>
+          00 44 668 79 159
+        </p>
+        <p>
+          TheStreetFoodJournal@foodie.com
+        </p>
+      </div>
+      <div class="box">
+        <a href="https://www.instagram.com/slavomirlobotka/" target="_blank"><img src="https://cdn.glitch.global/cc2a88e2-30b5-4e73-886c-4fef7baedc85/instagram%20logo30.jpg?v=1680386501664"/></a>
+        <a href="https://www.linkedin.com/in/slavom%C3%ADr-lobotka-360907248/" target="_blank"><img src="https://cdn.glitch.global/cc2a88e2-30b5-4e73-886c-4fef7baedc85/317750_linkedin_icon30.png?v=1680386505149"/></a>
+      </div>
+    </div>
+    <a href="#navigationBar">to top</a>
+  </body>
+</html>
